@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title></title>
+    <style>
+        .container {
+            width: 100vw;
+            height: 100vh;
+            background-color: rgb(183, 181, 181);
+            grid-template-columns: 1fr;
+            display: grid;
+            row-gap: 15px;
+
+        }
+
+        .box_one {
+            width: 98%;
+            height: 130px;
+            grid-column: 1 / span 5;
+            grid-row: 1/ span 1;
+            background-color: rgb(35, 200, 35);
+            margin-left: 15px;
+            margin-right: 15px;
+            text-align: center;
+        }
+
+        .box_two {
+            width: 95%;
+            height: 70vh;
+            background-color: white;
+            grid-column: 1/ span 3;
+            grid-row: 2;
+            row-gap: 40px;
+            column-gap: 3px;
+            margin-left: 15px;
+            border-radius: 15px;
+
+        }
+
+        .box_three {
+            width: 35vw;
+            height: 70vh;
+            background-color: white;
+            grid-column: 4/ span 2;
+            row-gap: 40px;
+            margin-right: 15px;
+            border-radius: 15px;
+        }
+
+        .box_four {
+            width: 98%;
+            height: 50px;
+            background-color: rgb(57, 56, 56);
+            grid-column: 1/ span 5;
+            grid-row: 3/ span 1;
+            margin-top: 10px;
+            margin-left: 15px;
+            margin-right: 15px;
+            margin-right: 15px;
+        }
+
+        h1 {
+            font-size: 50px;
+            color: white;
+        }
+
+        h2 {
+            font-weight: bolder;
+            font-size: 40px;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box_one">
+            <h1>Breaking News</h1>
+        </div>
+        <div class="box_two">
+            <h2>Scientists Build Device to Generate Electricity
+                <br>Using
+                the Earth's Rotation
+            </h2>
+            <p style="font-size: 25px;
+            margin-left: 10px; font-weight: bold;">Their experiment had a "controversial but intriguing" result.</p>
+            <p style="font-size: 22px; margin-left: 10px;">In a controversial experiment, a team of physicists
+                investigated whether we could harness the Earth's
+                rotational energy to generate electricity.
+
+                It's a deceptively simple idea that researchers have only started to grapple with over the last decade.
+                But whether the concept will ever turn into a feasible source of renewable energy remains to be seen,
+                with the team's peers noting their skepticism of the results.
+                <br>
+                <br>
+                As detailed in their paper published in the journal Physical Review Research, the team led by Princeton
+                University physicist Christoper Chyba, aligned a special device made up of a weak manganese-zinc ferrite
+                conductor and electrodes at each end, at a 57 angle, making it perpendicular to our planet's rotational
+                motion and its magnetic field.
+
+                They observed that the device generated 17 microvolts of electricity, which as Nature points out is a
+                fraction of the voltage released by a single neuron firing.
+
+            </p>
+        </div>
+        <div class="box_three">
+            <h2>Related News</h2>
+            <ul style="font-size: 20px;">
+                <li>Scientists: Uh, Earth Flipped Over On Its Side 84 Million Years Ago</li>
+                <br>
+                <li>Scientists Find Evidence of "Ocean" Hundreds of Miles Below Earth's Surface</li>
+                <br>
+                <li>The Earth Is Spinning so Fast, We Might Have to Turn Back the Clock</li>
+                <br>
+                <li>Astrobiologists Suggest the Earth Itself May Be an Intelligent Entity</li>
+                <br>
+                <li>Scientists: Uh, Earth Flipped Over On Its Side 84 Million Years Ago</li>
+            </ul>
+        </div>
+        <div class="box_four">
+            <h3 style="text-align: center; color: white;">© 2023 News Company. All rights reserved.</h3>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
